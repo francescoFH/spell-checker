@@ -1,0 +1,23 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/francescofacca/Projects/spell_checker/spec/spell_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/francescofacca/Projects/spell_checker/lib/spell.rb": {
+        "lines": [
+          1,
+          null,
+          null
+        ]
+      }
+    },
+    "timestamp": 1630581279
+  }
+}
