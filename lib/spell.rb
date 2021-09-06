@@ -6,7 +6,11 @@ class Spell
   end
 
   def check(string)
-    return string
+    if word_bank.include?(string)
+      return string
+    else
+      return "~#{string}~"
+    end
   end
 
 end

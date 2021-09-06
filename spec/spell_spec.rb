@@ -13,7 +13,7 @@ describe Spell do
   end
 
   it "return a word surrounded by ~ if it doesn't match a word in the word_bank array" do
-    expect(@spell.check('a')).to eq '~a~'
+    expect(spell.check('a')).to eq '~a~'
   end
 
 end
