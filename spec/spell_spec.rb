@@ -16,7 +16,11 @@ describe Spell do
 
   context "incorrectly spelled word(s)" do
     it "returns a word surrounded by ~ if it doesn't match a word in the word_bank array" do
-      expect(spell.check('a')).to eq "~a~"
+      expect(spell.check("helo")).to eq "~helo~"
+    end
+
+    it "returns highlighted incorrect words in a sentence" do
+      expect(spell.check("I love cding")).to eq "I love ~cding~"
     end
   end
 

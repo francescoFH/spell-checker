@@ -2,7 +2,7 @@ class Spell
   attr_reader :word_bank
 
   def initialize
-    @word_bank = ["hello", "word"]
+    @word_bank = ["hello", "word", "i", "love", "coding"]
   end
 
   def check(string)
