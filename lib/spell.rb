@@ -2,7 +2,7 @@ class Spell
   attr_reader :word_bank
 
   def initialize
-    @word_bank = ["Hello", "word"]
+    @word_bank = ["hello", "word"]
   end
 
   def check(string)
@@ -11,7 +11,7 @@ class Spell
 
     new_words = words.map { |word|
 
-      if word_bank.include?(word)
+      if word_bank.include?(word.downcase)
         word = word
       else
         word = "~#{word}~"
