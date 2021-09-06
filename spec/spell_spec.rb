@@ -24,4 +24,8 @@ describe Spell do
     expect(spell.word_bank).to be_a Array
   end
 
+  it "return error if input contains anything other than a string" do
+    expect(spell.check(1)).to output("invalid input").to_stdout
+  end
+
 end
