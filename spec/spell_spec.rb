@@ -16,7 +16,7 @@ describe Spell do
 
   context "incorrectly spelled word(s)" do
     it "returns a word surrounded by ~ if it doesn't match a word in the word_bank array" do
-      expect(spell.check('a')).to eq '~a~'
+      expect(spell.check('a')).to eq "~a~"
     end
   end
 
@@ -25,7 +25,7 @@ describe Spell do
   end
 
   it "return error if input contains anything other than a string" do
-    expect(spell.check(1)).to output("invalid input").to_stdout
+    expect(spell.check(1)).to eq "invalid input"
   end
 
 end
