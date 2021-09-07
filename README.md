@@ -2,7 +2,7 @@
 
 Small project to grow a better TDD process using Ruby and RSpec.
 
-I have built a spell-checker that identify incorrectly spelt words in a sentence.
+I have built a spell-checker that identifies incorrectly spelt words in a sentence.
 
 INPUT | OUTPUT
 --- | ---
